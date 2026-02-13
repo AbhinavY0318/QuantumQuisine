@@ -22,8 +22,8 @@ export default async function Header() {
           className="flex items-center gap-2 group"
         >
           <Image
-            src="/orange-logo.png"
-            alt="Servd Logo"
+            src="logo.png"
+            alt="QuantumQuisine Logo"
             width={60}
             height={60}
             className="w-16"
