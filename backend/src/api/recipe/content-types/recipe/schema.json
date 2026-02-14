@@ -49,10 +49,10 @@
       "type": "enumeration",
       "enum": [
         "breakfast",
-        "dessert",
-        "dinner",
         "lunch",
-        "snack"
+        "dinner",
+        "snack",
+        "dessert"
       ]
     },
     "ingredients": {

@@ -517,7 +517,7 @@ export interface ApiRecipeRecipe extends Struct.CollectionTypeSchema {
       'plugin::users-permissions.user'
     >;
     category: Schema.Attribute.Enumeration<
-      ['breakfast', 'dessert', 'dinner', 'lunch', 'snack']
+      ['breakfast', 'lunch', 'dinner', 'snack', 'dessert']
     >;
     cookTime: Schema.Attribute.Integer;
     createdAt: Schema.Attribute.DateTime;
