@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { Cookie, Refrigerator, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
-// import HowToCookModal from "./HowToCookModal";
+ import HowToCookModal from "./HowToCookModal";
 import PricingModal from "./PricingModal";
 import Image from "next/image";
 import { checkUser } from "@/lib/checkUser";
@@ -52,7 +52,7 @@ export default async function Header() {
 
         {/* Action Buttons */}
         <div className="flex items-center space-x-4">
-          {/* <HowToCookModal /> */}
+          <HowToCookModal />
 
           <SignedIn>
             {/* Pricing Modal with Built-in Trigger */}
